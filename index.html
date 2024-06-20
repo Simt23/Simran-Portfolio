@@ -1,353 +1,561 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script> tailwind.config = {
-    theme: {
-    extend: {
-    colors: {
-    clifford: '#da373d',
-    fontFamily:{
-          Sofia: ["'Sofia',cursive"]
-    }
-    }
-    
-    }
-    }
-    }
-    </script>
-    <style type="text/tailwindcss">
-    @layer utilities {
-    .content-auto {
-    content-visibility: auto;
-    }
-    }
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Simran Tomar
+        </title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    fontFamily: {
+                      Sofia: ["'Sofia',cursive"]
+                    }
+                  }
+            
+                }
+              }
+            }
+        </script>
+        <style type="text/tailwindcss">
+            @layer utilities { .content-auto { content-visibility: auto; } }
         </style>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&family=Sofia&display=swap" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&family=Sofia&display=swap" rel="stylesheet">
-   <style>
-    .interactive-container {
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .interactive-container:hover {
-      transform: translateY(-10px);
-    }
-  </style>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&family=Sofia&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&family=Sofia&display=swap"
+            rel="stylesheet">
+        <style>
+            .interactive-container { transition: transform 0.2s ease-in-out; } .interactive-container:hover
+            { transform: translateY(-10px); }
+        </style>
     </head>
     <body>
         <div class="grid grid-cols-2 gap-4">
             <div class="lex rounded-lg w-full  bg-[url(img/image.back..jpg);] bg-no-repeat bg-cover">
-              <div class="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
-                  <div class="">
-                      <img alt="simran" loading="lazy" width="100" height="120" decoding="async"
-                      data-nimg="1" class="object-cover border-4 border-black rounded-full shadow-md w-60 h-60"
-                      style="color:transparent" srcSet=" img/SIMRAN FRONT.jpeg ;w=120&amp;q=75 1x, img/SIMRAN FRONT.jpeg;q=75 2x"
-                      src="img/SIMRAN FRONT.jpeg" />
-                      <div class="flex md:flex-1 flex-col justify-center gap-4">
-                          <div class="flex justify-between items-center gap-5 ">
-                              <div class="text-3xl flex flex-col font-bold items-center text-highlight">
-                                  Simran Tomar
-                                  <div class="text-sm font-thin flex justify-between items-center">
-                                      simrantomar987@gmail.com
-                                      <a class="block md:hidden" target="_blank" href="https://gmail.com/simrantomar987">
-                                  </div>
-                              </div>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          
-          <div class=" bg-[url(img/image.back..jpg);] bg-no-repeat bg-cover">
-            
-             <h1 class="text-2xl text-center font-bold mb-4">
-                  ABOUT ME
-              </h1>
-              <p class="text-gray-600 px-4 font-mono">
-                I am Simran Tomar, an independent front-end developer, UI/UX designer, and creator based in New Delhi, India.
-             </p>
-              <p class="text-gray-600 px-4 mt-4 font-mono">
-                I specialize in crafting  elevated, intuitive, and minimalistic designs for personal projects and small real-tech world problems into a final solution as a project to help them stand out in the digital landscape with a powerful impact. <br><br> When I am not developing or designing, I enjoy solving problems on leetcode to brush up my problem-solving skills. <a href="https://leetcode.com/simt0823/" class="inline-flex font-light items-center font-medium text-black dark:text-blue-500 hover:underline">
-                    Link
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30">
-                        <path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path>
+                <div class="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
+                    <div class="">
+                        <img alt="simran" loading="lazy" width="100" height="120" decoding="async"
+                            data-nimg="1" class="object-cover border-4 border-black rounded-full shadow-md w-60 h-60"
+                            style="color:transparent" srcSet=" img/SIMRAN FRONT.jpeg ;w=120&amp;q=75 1x, img/SIMRAN FRONT.jpeg;q=75 2x"
+                            src="img/SIMRAN FRONT.jpeg" />
+                        <div class="flex md:flex-1 flex-col justify-center gap-4">
+                            <div class="flex justify-between items-center gap-5 ">
+                                <div class="text-3xl flex flex-col font-bold items-center text-highlight">
+                                    Simran Tomar
+                                    <div class="text-sm font-thin flex justify-between items-center">
+                                        simrantomar987@gmail.com
+                                        <a class="block md:hidden" target="_blank" href="https://gmail.com/simrantomar987">
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-[url(img/image.back..jpg);] bg-no-repeat bg-cover">
+                <h1 class="text-2xl text-center font-bold mb-4">
+                    ABOUT ME
+                </h1>
+                <p class="text-gray-600 px-4 font-mono">
+                    I am Simran Tomar, an independent front-end developer, UI/UX designer,
+                    and creator based in New Delhi, India.
+                </p>
+                <p class="text-gray-600 px-4 mt-4 font-mono">
+                    I specialize in crafting elevated, intuitive, and minimalistic designs
+                    for personal projects and small real-tech world problems into a final solution
+                    as a project to help them stand out in the digital landscape with a powerful
+                    impact.
+                    <br>
+                    <br>
+                    When I am not developing or designing, I enjoy solving problems on leetcode
+                    to brush up my problem-solving skills.
+                    <a href="https://leetcode.com/simt0823/" target="_blank" class="inline-flex font-light items-center font-medium text-black dark:text-blue-500 hover:underline">
+                        Link
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                            viewBox="0 0 30 30">
+                            <path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z">
+                            </path>
                         </svg>
                     </a>
                 </p>
-             
-<div class="align-middle  mt-4 ml-60 mr-60 font-serif"><a href="https://drive.google.com/file/d/1psEwJa9WWxvdpi6ZRuqkuv-ltGhrPXhh/view?usp=drive_link" class="text-black bg-[#FF90BC] hover:bg-[#B0578D] font-xl rounded-lg text-md px-5 py-2.5">Resume</a>
-</div>
-        </div>
-            
-          </div>
-    <div class="bg-pink-100">
-    <div class="  bg-pink-100 flex flex-col gap-10 lg:px-10">
-    <section class="grid gap-10 p-5 mt-5 md:p-0">
-    <div class="text-5xl font-medium mt-5 text-black text-center">Projects</div>
-    <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 xl::grid-cols-4 gap-10">
-    <a target="_blank" href="https://github.com/simt23/FoodFeast">
-    <div class="flex flex-col  w-80 overflow-hidden gap-4 bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
-    <img alt="foodfeast" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover " style="color:transparent" srcSet="img/food feast.jpeg&amp;w=1000&amp;q=75 1x, img/food feast.jpeg&amp;w=1920&amp;q=75 2x" src="img/food feast.jpeg">
-    <div class="flex flex-col px-4 py-2 h-24"><div class="flex font-bold">foodfeast</div>
-    <div class="flex text-info text-xl">HTML,CSS,JavaScript</div>
-    </div>
-    </div>
-    </a>
-    <a target="_blank" href="https://github.com/simt23/SpaceTravel">
-    <div class="flex flex-col w-80 overflow-hidden gap-4 bg-[#7F8000]  items-center text-[#F5F5DC]  rounded-lg overflow-ellipsis interactive-container">
-    <img alt="spacetravel" loading="lazy"  width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" srcSet=" img/space travel.png&amp;w=1000&amp;q=75 1x,  img/space travel.png&amp;w=2100&amp;q=75 2x" src=" img/space travel.png"/>
-    <div class="flex flex-col px-4 py-2 h-24">
-    <div class="flex font-bold">Space Travel</div>
-    <div class="flex text-info text-xl">HTML,CSS,JavaScript</div>
-    </div>
-    </div>
-    </a>
-    <a target="_blank" href="https://github.com/Simt23/InternTask_PowerBi">
-    <div class="flex flex-col w-80  overflow-hidden gap-4  bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
-    <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" srcSet=" img/power bi.png&amp;w=1000&amp;q=75 1x, img/ power bi.png&amp;w=2100&amp;q=75 2x" src=" img/power bi.png"/>
-    <div class="flex flex-col px-4 py-2 h-24">
-    <div class="flex font-bold">Sales Dashboard</div>
-    <div class="flex text-info text-xl text-center ">Power Bi, Excel,Canva</div>
-    </div>
-    </div>
-    </a>
-    <a target="_blank" href="https://task-1-khaki-eta.vercel.app/">
-        <div class="flex flex-col w-80  overflow-hidden gap-4  bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
-        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" srcSet=" img/power bi.png&amp;w=1000&amp;q=75 1x, img/ power bi.png&amp;w=2100&amp;q=75 2x" src=" img/foodtruck.jpg"/>
-        <div class="flex flex-col px-4 py-2 h-24">
-        <div class="flex font-bold">Food Truck</div>
-        <div class="flex text-info text-xl text-center ">React Js, Tailwind</div>
-        </div>
-        </div>
-        </a>
-        <a target="_blank" href="https://quiz-app-livid-gamma-61.vercel.app/">
-            <div class="flex flex-col w-80  overflow-hidden gap-4  bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
-        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" srcSet=" img/power bi.png&amp;w=1000&amp;q=75 1x, img/ power bi.png&amp;w=2100&amp;q=75 2x" src=" img/quiz.jpg"/>
-            <div class="flex flex-col px-4 py-2 h-24">
-        <div class="flex font-bold">Quiz App</div>
-            <div class="flex text-info text-xl text-center ">React Js, CSS</div>
+                <div class="align-middle  mt-4 ml-60 mr-60 font-serif">
+                    <a href="https://drive.google.com/file/d/1--b9Q9CtENj4CCTiDFF8_xsScOnZwWec/view?usp=sharing"
+                        class="text-black bg-[#FF90BC] hover:bg-[#B0578D] font-xl rounded-lg text-md px-5 py-2.5">
+                    Resume
+                    </a>
+                </div>
             </div>
-            </div>
-            </a>
-    </div>
-
-    <section class="grid grid-rows-1 lg:grid-rows-2 xl:grid-rows-4 place-item-end gap-4 p-5 mt-5 md:p-0">
-    <div class="col-row-2 p-6 md:row-span-2 lg:row-span-3 ">
-    <div class=" text-5xl font-medium mt-2 text-black mb-5 text-center">What I know</div>
-    <div class="bg-purple-200 rounded-md h-96 px-6 ">
-        <div class=" py-5 text-black text-3xl">Front End</div>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">HTML</dt>
-            <dd class="flex items-center mb-5">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">9.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">CSS</dt>
-            <dd class="flex items-center mb-5">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">9.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">JavaScript</dt>
-            <dd class="flex items-center mb-5">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">Tailwind Css</dt>
-            <dd class="flex items-center mb-5">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">9.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">BootStrap</dt>
-            <dd class="flex items-center mb-5">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-            </dd>
-        </dl>
-    </div>
-    <div>
-       
-    </div>
-</div>
-
-    <div class=" bg-purple-200 flex-1 flex flex-col gap-6 bg-cardPrimary ml-5 mr-5 p-5 rounded-md shadow-lg">
-       <div class=" py-4 text-black text-3xl">Programming</div>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">Java</dt>
-            <dd class="flex items-center ">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 85%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">7.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">C++</dt>
-            <dd class="flex items-center ">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 85%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">7.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">Python</dt>
-            <dd class="flex items-center ">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 85%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">7.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">SQL</dt>
-            <dd class="flex items-center">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 ">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">6.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">DSA</dt>
-            <dd class="flex items-center ">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-            </dd>
-        </dl>
-        <dl>
-            <dt class="text-sm font-medium text-black dark:text-gray-400">React Js</dt>
-            <dd class="flex items-center ">
-                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                </div>
-                <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-            </dd>
-        </dl>
-    </div>
-    <div>
-    
-        <div class=" bg-purple-200 flex-1 flex flex-col gap-6 bg-cardPrimary ml-5 mr-5 p-5 rounded-md mt-6 shadow-lg">
-        <div class=" py-4 text-black text-3xl">Computer Fundamentals</div>
-         <dl>
-             <dt class="text-sm font-medium text-black dark:text-gray-400">DBMS</dt>
-             <dd class="flex items-center ">
-                 <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                     <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                 </div>
-                 <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-             </dd>
-         </dl>
-         <dl>
-             <dt class="text-sm font-medium text-black dark:text-gray-400">OOPS</dt>
-             <dd class="flex items-center ">
-                 <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                     <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%"></div>
-                 </div>
-                 <span class="text-sm font-medium text-black dark:text-gray-400">9.0</span>
-             </dd>
-         </dl>
-         <dl>
-             <dt class="text-sm font-medium text-black dark:text-gray-400">Operating System</dt>
-             <dd class="flex items-center ">
-                 <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                     <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%"></div>
-                 </div>
-                 <span class="text-sm font-medium text-black dark:text-gray-400">8.0</span>
-             </dd>
-         </dl>
-         <dl>
-             <dt class="text-sm font-medium text-black dark:text-gray-400">Computer Networking</dt>
-             <dd class="flex items-center">
-                 <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 ">
-                     <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 85%"></div>
-                 </div>
-                 <span class="text-sm font-medium text-black dark:text-gray-400">7.0</span>
-             </dd>
-         </dl>
-         <dl>
-             <dt class="text-sm font-medium text-black dark:text-gray-400">Low Level Design</dt>
-             <dd class="flex items-center ">
-                 <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
-                     <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%"></div>
-                 </div>
-                 <span class="text-sm font-medium text-black dark:text-gray-400">6.0</span>
-             </dd>
-         </dl>
-     </div>
-    </div>
-</div>
-     <div class="bg-pink-100">
-    <div class="grid bg-[#7F8000] gap-6 p-6 shadow-lg text-black rounded w-60 mb-10 ml-14 mt-10">
-    <div class="text-2xl text-center font-medium mt-2  text-[#F5F5DC]">Contacts</div>
-    <div class="flex text-center ">
-        <div class="mx-3">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 64 64">
-                <linearGradient id="X8PQgv_hN2z14HAU6EeM8a_48165_gr1" x1="32" x2="32" y1="12" y2="52" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8a_48165_gr1)" d="M58,16.82h-0.01C57.94,14.15,55.81,12,53.2,12H10.8c-2.61,0-4.74,2.15-4.79,4.82H6 c0,0.01,0.01,0.02,0.01,0.04S6,16.89,6,16.91v30.18C6,49.8,8.16,52,10.8,52h42.4c2.64,0,4.8-2.2,4.8-4.91V16.91 c0-0.02-0.01-0.03-0.01-0.05S58,16.83,58,16.82z M50.67,14L32,27.11L13.33,14H50.67z M10.03,14.13L32,29.56l21.97-15.43 c1.15,0.34,2,1.42,2.02,2.72c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58c-0.42-0.29-1.26-1.09-1.29-1.73 C8.03,15.55,8.88,14.47,10.03,14.13z M12,23v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23H12z M50,50H14V24.39l18,12.84l18-12.84V50z M56,47.09c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78c0.02-0.02,0.08-0.06,0.15-0.11 V47.09z"></path><linearGradient id="X8PQgv_hN2z14HAU6EeM8b_48165_gr2" x1="53.975" x2="53.975" y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8b_48165_gr2)" d="M56,20.11v26.98c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78 C55.87,20.2,55.93,20.16,56,20.11z"></path><linearGradient id="X8PQgv_hN2z14HAU6EeM8c_48165_gr3" x1="10.025" x2="10.025" y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8c_48165_gr3)" d="M12.05,23H12v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23z"></path><linearGradient id="X8PQgv_hN2z14HAU6EeM8d_48165_gr4" x1="32" x2="32" y1="14.13" y2="34.77" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#X8PQgv_hN2z14HAU6EeM8d_48165_gr4)" d="M55.99,16.85c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58 c-0.42-0.29-1.26-1.09-1.29-1.73c0.02-1.3,0.87-2.38,2.02-2.72L32,29.56l21.97-15.43C55.12,14.47,55.97,15.55,55.99,16.85z"></path>
-                </svg>
-                </div>
-                <a href="mailto:simrantomar987@gmail.com"> 
-            <div class="items-center pt-3 text-lg text-[#F5F5DC]">Gmail</div></a> 
         </div>
-
-        <div class="flex text-center ">
-            <div class="mx-3">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
-                    <defs><linearGradient x1="19" y1="24.858" x2="19" y2="49.041" gradientUnits="userSpaceOnUse" id="color-1_44019_gr1"><stop offset="0" stop-color="#8ab4ff"></stop><stop offset="1" stop-color="#e492ff"></stop></linearGradient><linearGradient x1="19.382" y1="15.423" x2="19.382" y2="23.341" gradientUnits="userSpaceOnUse" id="color-2_44019_gr2"><stop offset="0" stop-color="#8ab4ff"></stop><stop offset="1" stop-color="#e492ff"></stop></linearGradient><linearGradient x1="37.386" y1="14.125" x2="37.386" y2="49.525" gradientUnits="userSpaceOnUse" id="color-3_44019_gr3"><stop offset="0" stop-color="#8ab4ff"></stop><stop offset="1" stop-color="#e492ff"></stop></linearGradient><linearGradient x1="32" y1="6.5" x2="32" y2="57.5" gradientUnits="userSpaceOnUse" id="color-4_44019_gr4"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient></defs><g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M22,48v-22h-6v22z" fill="url(#color-1_44019_gr1)" fill-rule="evenodd"></path><path d="M19.358,23c2.512,0 4.076,-1.474 4.076,-3.554c-0.047,-2.126 -1.564,-3.649 -4.028,-3.649c-2.465,0 -4.076,1.475 -4.076,3.601c0,2.08 1.563,3.602 3.981,3.602h0.047z" fill="url(#color-2_44019_gr2)" fill-rule="evenodd"></path><path d="M26.946,48h7.054v-12.089c0,-0.648 0.122,-1.295 0.313,-1.758c0.52,-1.295 1.877,-2.635 3.867,-2.635c2.607,0 3.821,1.988 3.821,4.901v11.581h6v-12.412c0,-6.657 -3.085,-9.498 -7.826,-9.498c-3.886,0 -5.124,1.91 -6.072,3.91h-0.103v-4h-7.054c0.095,2 -0.175,22 -0.175,22z" fill="url(#color-3_44019_gr3)" fill-rule="evenodd"></path><path d="M50,57h-36c-3.859,0 -7,-3.141 -7,-7v-36c0,-3.859 3.141,-7 7,-7h36c3.859,0 7,3.141 7,7v36c0,3.859 -3.141,7 -7,7zM14,9c-2.757,0 -5,2.243 -5,5v36c0,2.757 2.243,5 5,5h36c2.757,0 5,-2.243 5,-5v-36c0,-2.757 -2.243,-5 -5,-5z" fill="url(#color-4_44019_gr4)" fill-rule="nonzero"></path></g></g>
-                    </svg>
+        <div class="bg-pink-100">
+        <div class="  bg-pink-100 flex flex-col gap-10 lg:px-10">
+            <section class="grid gap-10 p-5 mt-5 md:p-0">
+                <div class="text-5xl font-medium mt-5 text-black text-center">
+                    Projects
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 xl::grid-cols-3 gap-10">
+                    <a target="_blank" href="https://github.com/simt23/FoodFeast">
+                        <div class="flex flex-col  w-80 overflow-hidden gap-4 bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
+                            <img alt="foodfeast" loading="lazy" width="700" height="700" decoding="async"
+                                data-nimg="1" class="aspect-video object-cover " style="color:transparent"
+                                srcSet="img/food feast.jpeg&amp;w=1000&amp;q=75 1x, img/food feast.jpeg&amp;w=1920&amp;q=75 2x"
+                                src="img/food feast.jpeg">
+                            <div class="flex flex-col px-4 py-2 h-24">
+                                <div class="flex font-bold">
+                                    foodfeast
+                                </div>
+                                <div class="flex text-info text-xl">
+                                    HTML,CSS,JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://github.com/simt23/SpaceTravel">
+                        <div class="flex flex-col w-80 overflow-hidden gap-4 bg-[#7F8000]  items-center text-[#F5F5DC]  rounded-lg overflow-ellipsis interactive-container">
+                            <img alt="spacetravel" loading="lazy" width="700" height="700" decoding="async"
+                                data-nimg="1" class="aspect-video object-cover" style="color:transparent"
+                                srcSet=" img/space travel.png&amp;w=1000&amp;q=75 1x,  img/space travel.png&amp;w=2100&amp;q=75 2x"
+                                src=" img/space travel.png" />
+                            <div class="flex flex-col px-4 py-2 h-24">
+                                <div class="flex font-bold">
+                                    Space Travel
+                                </div>
+                                <div class="flex text-info text-xl">
+                                    HTML,CSS,JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://github.com/Simt23/InternTask_PowerBi">
+                        <div class="flex flex-col w-80  overflow-hidden gap-4  bg-[#7F8000] items-center text-[#F5F5DC] rounded-lg overflow-ellipsis interactive-container">
+                            <img alt="spotify" loading="lazy" width="700" height="700" decoding="async"
+                                data-nimg="1" class="aspect-video object-cover" style="color:transparent"
+                                srcSet=" img/power bi.png&amp;w=1000&amp;q=75 1x, img/ power bi.png&amp;w=2100&amp;q=75 2x"
+                                src=" img/power bi.png" />
+                            <div class="flex flex-col px-4 py-2 h-24">
+                                <div class="flex font-bold">
+                                    Sales Dashboard
+                                </div>
+                                <div class="flex text-info text-xl text-center ">
+                                    Power Bi, Excel,Canva
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="grid grid-rows-1 lg:grid-rows-2 xl:grid-rows-4 place-item-end gap-4 p-5 mt-5 md:p-0">
+                <div class="col-row-3 p-6 md:row-span-3 lg:row-span-3 ">
+                    <div class=" text-5xl font-medium mt-2 text-black mb-5 text-center">
+                        What I know
                     </div>
-                <a href=" http://www.linkedin.com/in/simrantomar23">
-                <div class="items-center pt-3 text-lg text-[#F5F5DC]">Linkedin</div>
-                </a>
-            </div>
-        <div class="flex text-center ">
-            <div class="mx-3">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
-                    <defs><linearGradient x1="30.999" y1="16" x2="30.999" y2="55.342" gradientUnits="userSpaceOnUse" id="color-1_52539_gr1"><stop offset="0" stop-color="#8ab4ff"></stop><stop offset="1" stop-color="#e492ff"></stop></linearGradient><linearGradient x1="32" y1="5" x2="32" y2="59.167" gradientUnits="userSpaceOnUse" id="color-2_52539_gr2"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M25.008,56.007c-0.003,-0.368 -0.006,-1.962 -0.009,-3.454l-0.003,-1.55c-6.729,0.915 -8.358,-3.78 -8.376,-3.83c-0.934,-2.368 -2.211,-3.045 -2.266,-3.073l-0.124,-0.072c-0.463,-0.316 -1.691,-1.157 -1.342,-2.263c0.315,-0.997 1.536,-1.1 2.091,-1.082c3.074,0.215 4.63,2.978 4.694,3.095c1.569,2.689 3.964,2.411 5.509,1.844c0.144,-0.688 0.367,-1.32 0.659,-1.878c-4.956,-0.879 -10.571,-3.515 -10.571,-13.104c0,-2.633 0.82,-4.96 2.441,-6.929c-0.362,-1.206 -0.774,-3.666 0.446,-6.765l0.174,-0.442l0.452,-0.144c0.416,-0.137 2.688,-0.624 7.359,2.433c1.928,-0.494 3.969,-0.749 6.074,-0.759c2.115,0.01 4.158,0.265 6.09,0.759c4.667,-3.058 6.934,-2.565 7.351,-2.433l0.451,0.145l0.174,0.44c1.225,3.098 0.813,5.559 0.451,6.766c1.618,1.963 2.438,4.291 2.438,6.929c0,9.591 -5.621,12.219 -10.588,13.087c0.563,1.065 0.868,2.402 0.868,3.878c0,1.683 -0.007,7.204 -0.015,8.402l-2,-0.014c0.008,-1.196 0.015,-6.708 0.015,-8.389c0,-2.442 -0.943,-3.522 -1.35,-3.874l-1.73,-1.497l2.274,-0.253c5.205,-0.578 10.525,-2.379 10.525,-11.341c0,-2.33 -0.777,-4.361 -2.31,-6.036l-0.43,-0.469l0.242,-0.587c0.166,-0.401 0.894,-2.442 -0.043,-5.291c-0.758,0.045 -2.568,0.402 -5.584,2.447l-0.384,0.259l-0.445,-0.123c-1.863,-0.518 -3.938,-0.796 -6.001,-0.806c-2.052,0.01 -4.124,0.288 -5.984,0.806l-0.445,0.123l-0.383,-0.259c-3.019,-2.044 -4.833,-2.404 -5.594,-2.449c-0.935,2.851 -0.206,4.892 -0.04,5.293l0.242,0.587l-0.429,0.469c-1.536,1.681 -2.314,3.712 -2.314,6.036c0,8.958 5.31,10.77 10.504,11.361l2.252,0.256l-1.708,1.49c-0.372,0.325 -1.03,1.112 -1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592 -5.839,2.162 -8.548,-2.485c-0.015,-0.025 -0.544,-0.945 -1.502,-1.557c0.646,0.639 1.433,1.673 2.068,3.287c0.066,0.19 1.357,3.622 7.28,2.339l1.206,-0.262l0.012,3.978c0.003,1.487 0.006,3.076 0.009,3.444z" fill="url(#color-1_52539_gr1)"></path><path d="M32,58c-14.337,0 -26,-11.663 -26,-26c0,-14.337 11.663,-26 26,-26c14.337,0 26,11.663 26,26c0,14.337 -11.663,26 -26,26zM32,8c-13.233,0 -24,10.767 -24,24c0,13.233 10.767,24 24,24c13.233,0 24,-10.767 24,-24c0,-13.233 -10.767,-24 -24,-24z" fill="url(#color-2_52539_gr2)"></path></g></g>
-                    </svg>
-            </div>
-            <a href="https://github.com/Simt23">
-                <div class="items-center pt-3 text-lg text-[#F5F5DC]">GitHub</div></a>
+                    <div class=" bg-purple-200 flex-1 flex flex-col gap-6 bg-cardPrimary ml-5 mr-5 p-5 rounded-md mt-6 shadow-lg">
+                        <div class=" py-4 text-black text-3xl">
+                            Front End
+                        </div>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                HTML
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                9.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                CSS
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                9.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                JavaScript
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Tailwind CSS
+                            </dt>
+                            <dd class="flex items-center">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 ">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                9.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Bootstrap
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class=" bg-purple-200 flex-1 flex flex-col gap-6 bg-cardPrimary ml-5 mr-5 p-5 rounded-md mt-6 shadow-lg">
+                        <div class=" py-4 text-black text-3xl">
+                            Programming
+                        </div>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Java
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                CPP
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                7.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Python
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                7.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                SQL
+                            </dt>
+                            <dd class="flex items-center">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 ">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                7.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                DSA
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class=" bg-purple-200 flex-1 flex flex-col gap-6 bg-cardPrimary ml-5 mr-5 p-5 rounded-md mt-6 shadow-lg">
+                        <div class=" py-4 text-black text-3xl">
+                            Computer Fundamentals
+                        </div>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                DBMS
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                OOPS
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 95%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                9.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Operating System
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 88%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                8.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Computer Networking
+                            </dt>
+                            <dd class="flex items-center">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 ">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 85%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                7.0
+                                </span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="text-sm font-medium text-black dark:text-gray-400">
+                                Low Level Design
+                            </dt>
+                            <dd class="flex items-center ">
+                                <div class="w-full bg-black rounded h-2.5 dark:bg-gray-700 me-2">
+                                    <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 75%">
+                                    </div>
+                                </div>
+                                <span class="text-sm font-medium text-black dark:text-gray-400">
+                                6.0
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
-        <div class="flex text-center ">
-                <div class="mx-3">
-                <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40"viewBox="0 0 28 28" id="leetcode"><path fill="#FFA0C6" d="M19.816,23.985c-4.03,3.565-11.835,2.93-14.617-3.567S4.709,9.13,11.321,8.247S29.309,15.589,19.816,23.985z"></path><path d="M22.303,18.047h-9.561c-0.936,0-1.697-0.803-1.697-1.79s0.762-1.79,1.697-1.79h9.561c0.936,0,1.697,0.803,1.697,1.79S23.238,18.047,22.303,18.047z M12.742,15.467c-0.385,0-0.697,0.354-0.697,0.79s0.312,0.79,0.697,0.79h9.561c0.385,0,0.697-0.354,0.697-0.79s-0.312-0.79-0.697-0.79H12.742z"></path><path d="M13.618,26c-1.604,0-2.977-0.533-3.97-1.541l-4.098-4.181C4.551,19.262,4,17.819,4,16.215c0-1.578,0.551-3.008,1.552-4.025l9.519-9.681c0.66-0.67,1.829-0.652,2.506,0.036c0.694,0.706,0.71,1.839,0.034,2.524l-1.762,1.816c0.655,0.268,1.241,0.659,1.739,1.159l2.463,2.53c0.672,0.684,0.655,1.815-0.039,2.521c-0.346,0.352-0.802,0.545-1.284,0.545l0,0c-0.464,0-0.896-0.181-1.219-0.509l-2.536-2.492c-0.321-0.327-0.779-0.49-1.367-0.49c-0.606,0-1.069,0.157-1.375,0.469l-4.067,4.194c-0.342,0.349-0.521,0.831-0.521,1.4c0,0.577,0.189,1.101,0.519,1.436l4.083,4.182c0.315,0.321,0.774,0.484,1.362,0.484s1.045-0.163,1.36-0.484l2.549-2.505c0.314-0.321,0.746-0.502,1.209-0.503c0.001,0,0.002,0,0.002,0c0.483,0,0.939,0.194,1.286,0.546c0.693,0.705,0.71,1.837,0.036,2.522l-2.457,2.525C16.586,25.438,15.176,26,13.618,26z M16.29,3c-0.193,0-0.374,0.074-0.507,0.21l-9.519,9.681C5.449,13.72,5,14.9,5,16.215c0,1.341,0.449,2.535,1.265,3.363c0,0,0,0,0.001,0.001l4.097,4.18C11.162,24.57,12.288,25,13.618,25c1.288,0,2.444-0.455,3.258-1.282l2.457-2.525c0.295-0.301,0.279-0.804-0.034-1.122c-0.156-0.159-0.36-0.247-0.573-0.247c0,0,0,0-0.001,0c-0.192,0.001-0.37,0.075-0.502,0.209l-2.549,2.505c-0.497,0.507-1.214,0.778-2.068,0.778s-1.572-0.271-2.076-0.784L7.446,18.35c-0.519-0.527-0.805-1.286-0.805-2.136c0-0.824,0.286-1.57,0.806-2.099l4.067-4.194c0.503-0.512,1.206-0.771,2.091-0.771c0.854,0,1.571,0.271,2.074,0.783l2.536,2.492c0.139,0.142,0.318,0.216,0.512,0.216l0,0c0.212,0,0.415-0.087,0.571-0.246c0.313-0.319,0.33-0.822,0.037-1.121l-2.461-2.528c-0.56-0.562-1.263-0.957-2.028-1.137c-0.175-0.041-0.331-0.176-0.382-0.349s-0.021-0.363,0.104-0.492l2.325-2.398c0.298-0.302,0.282-0.805-0.031-1.124C16.707,3.088,16.504,3,16.29,3z"></path>
-                </svg>
-                 </div>
-                <a href="https://leetcode.com/simt0823/">
-                        <div class="items-center pt-3 text-lg text-[#F5F5DC]">LeetCode</div></a>
-                     </div>
-                </div>
-                
+                <div class="grid bg-[#7F8000] gap-6 p-6 shadow-lg text-black rounded w-60 mb-10 ml-14 mt-10">
+                    <div class="text-2xl text-center font-medium mt-2  text-[#F5F5DC]">
+                        Contacts
+                    </div>
+                    <div class="flex text-center ">
+                        <div class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                                viewBox="0 0 64 64">
+                                <linearGradient id="X8PQgv_hN2z14HAU6EeM8a_48165_gr1" x1="32" x2="32"
+                                    y1="12" y2="52" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff">
+                                    </stop>
+                                    <stop offset="1" stop-color="#c822ff">
+                                    </stop>
+                                </linearGradient>
+                                <path fill="url(#X8PQgv_hN2z14HAU6EeM8a_48165_gr1)" d="M58,16.82h-0.01C57.94,14.15,55.81,12,53.2,12H10.8c-2.61,0-4.74,2.15-4.79,4.82H6 c0,0.01,0.01,0.02,0.01,0.04S6,16.89,6,16.91v30.18C6,49.8,8.16,52,10.8,52h42.4c2.64,0,4.8-2.2,4.8-4.91V16.91 c0-0.02-0.01-0.03-0.01-0.05S58,16.83,58,16.82z M50.67,14L32,27.11L13.33,14H50.67z M10.03,14.13L32,29.56l21.97-15.43 c1.15,0.34,2,1.42,2.02,2.72c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58c-0.42-0.29-1.26-1.09-1.29-1.73 C8.03,15.55,8.88,14.47,10.03,14.13z M12,23v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23H12z M50,50H14V24.39l18,12.84l18-12.84V50z M56,47.09c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78c0.02-0.02,0.08-0.06,0.15-0.11 V47.09z">
+                                </path>
+                                <linearGradient id="X8PQgv_hN2z14HAU6EeM8b_48165_gr2" x1="53.975" x2="53.975"
+                                    y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff">
+                                    </stop>
+                                    <stop offset="1" stop-color="#e6abff">
+                                    </stop>
+                                </linearGradient>
+                                <path fill="url(#X8PQgv_hN2z14HAU6EeM8b_48165_gr2)" d="M56,20.11v26.98c0,1.6-1.26,2.91-2.8,2.91H52V23h-0.05l3.9-2.78 C55.87,20.2,55.93,20.16,56,20.11z">
+                                </path>
+                                <linearGradient id="X8PQgv_hN2z14HAU6EeM8c_48165_gr3" x1="10.025" x2="10.025"
+                                    y1="20.11" y2="50" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff">
+                                    </stop>
+                                    <stop offset="1" stop-color="#e6abff">
+                                    </stop>
+                                </linearGradient>
+                                <path fill="url(#X8PQgv_hN2z14HAU6EeM8c_48165_gr3)" d="M12.05,23H12v27h-1.2C9.26,50,8,48.69,8,47.09V20.11c0.07,0.05,0.12,0.09,0.14,0.11L12.05,23z">
+                                </path>
+                                <linearGradient id="X8PQgv_hN2z14HAU6EeM8d_48165_gr4" x1="32" x2="32"
+                                    y1="14.13" y2="34.77" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff">
+                                    </stop>
+                                    <stop offset="1" stop-color="#e6abff">
+                                    </stop>
+                                </linearGradient>
+                                <path fill="url(#X8PQgv_hN2z14HAU6EeM8d_48165_gr4)" d="M55.99,16.85c-0.03,0.64-0.87,1.44-1.3,1.74L32,34.77L9.3,18.58 c-0.42-0.29-1.26-1.09-1.29-1.73c0.02-1.3,0.87-2.38,2.02-2.72L32,29.56l21.97-15.43C55.12,14.47,55.97,15.55,55.99,16.85z">
+                                </path>
+                            </svg>
+                        </div>
+                        <a href="mailto:simrantomar987@gmail.com" target="_blank">
+                            <div class="items-center pt-3 text-lg text-[#F5F5DC]">
+                                Gmail
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex text-center ">
+                        <div class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                                viewBox="0,0,256,256">
+                                <defs>
+                                    <linearGradient x1="19" y1="24.858" x2="19" y2="49.041" gradientUnits="userSpaceOnUse"
+                                        id="color-1_44019_gr1">
+                                        <stop offset="0" stop-color="#8ab4ff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#e492ff">
+                                        </stop>
+                                    </linearGradient>
+                                    <linearGradient x1="19.382" y1="15.423" x2="19.382" y2="23.341" gradientUnits="userSpaceOnUse"
+                                        id="color-2_44019_gr2">
+                                        <stop offset="0" stop-color="#8ab4ff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#e492ff">
+                                        </stop>
+                                    </linearGradient>
+                                    <linearGradient x1="37.386" y1="14.125" x2="37.386" y2="49.525" gradientUnits="userSpaceOnUse"
+                                        id="color-3_44019_gr3">
+                                        <stop offset="0" stop-color="#8ab4ff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#e492ff">
+                                        </stop>
+                                    </linearGradient>
+                                    <linearGradient x1="32" y1="6.5" x2="32" y2="57.5" gradientUnits="userSpaceOnUse"
+                                        id="color-4_44019_gr4">
+                                        <stop offset="0" stop-color="#1a6dff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#c822ff">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                                <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                    style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path d="M22,48v-22h-6v22z" fill="url(#color-1_44019_gr1)" fill-rule="evenodd">
+                                        </path>
+                                        <path d="M19.358,23c2.512,0 4.076,-1.474 4.076,-3.554c-0.047,-2.126 -1.564,-3.649 -4.028,-3.649c-2.465,0 -4.076,1.475 -4.076,3.601c0,2.08 1.563,3.602 3.981,3.602h0.047z"
+                                            fill="url(#color-2_44019_gr2)" fill-rule="evenodd">
+                                        </path>
+                                        <path d="M26.946,48h7.054v-12.089c0,-0.648 0.122,-1.295 0.313,-1.758c0.52,-1.295 1.877,-2.635 3.867,-2.635c2.607,0 3.821,1.988 3.821,4.901v11.581h6v-12.412c0,-6.657 -3.085,-9.498 -7.826,-9.498c-3.886,0 -5.124,1.91 -6.072,3.91h-0.103v-4h-7.054c0.095,2 -0.175,22 -0.175,22z"
+                                            fill="url(#color-3_44019_gr3)" fill-rule="evenodd">
+                                        </path>
+                                        <path d="M50,57h-36c-3.859,0 -7,-3.141 -7,-7v-36c0,-3.859 3.141,-7 7,-7h36c3.859,0 7,3.141 7,7v36c0,3.859 -3.141,7 -7,7zM14,9c-2.757,0 -5,2.243 -5,5v36c0,2.757 2.243,5 5,5h36c2.757,0 5,-2.243 5,-5v-36c0,-2.757 -2.243,-5 -5,-5z"
+                                            fill="url(#color-4_44019_gr4)" fill-rule="nonzero">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <a href=" http://www.linkedin.com/in/simrantomar23" target="_blank">
+                            <div class="items-center pt-3 text-lg text-[#F5F5DC]">
+                                Linkedin
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex text-center ">
+                        <div class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                                viewBox="0,0,256,256">
+                                <defs>
+                                    <linearGradient x1="30.999" y1="16" x2="30.999" y2="55.342" gradientUnits="userSpaceOnUse"
+                                        id="color-1_52539_gr1">
+                                        <stop offset="0" stop-color="#8ab4ff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#e492ff">
+                                        </stop>
+                                    </linearGradient>
+                                    <linearGradient x1="32" y1="5" x2="32" y2="59.167" gradientUnits="userSpaceOnUse"
+                                        id="color-2_52539_gr2">
+                                        <stop offset="0" stop-color="#1a6dff">
+                                        </stop>
+                                        <stop offset="1" stop-color="#c822ff">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                    style="mix-blend-mode: normal">
+                                    <g transform="scale(4,4)">
+                                        <path d="M25.008,56.007c-0.003,-0.368 -0.006,-1.962 -0.009,-3.454l-0.003,-1.55c-6.729,0.915 -8.358,-3.78 -8.376,-3.83c-0.934,-2.368 -2.211,-3.045 -2.266,-3.073l-0.124,-0.072c-0.463,-0.316 -1.691,-1.157 -1.342,-2.263c0.315,-0.997 1.536,-1.1 2.091,-1.082c3.074,0.215 4.63,2.978 4.694,3.095c1.569,2.689 3.964,2.411 5.509,1.844c0.144,-0.688 0.367,-1.32 0.659,-1.878c-4.956,-0.879 -10.571,-3.515 -10.571,-13.104c0,-2.633 0.82,-4.96 2.441,-6.929c-0.362,-1.206 -0.774,-3.666 0.446,-6.765l0.174,-0.442l0.452,-0.144c0.416,-0.137 2.688,-0.624 7.359,2.433c1.928,-0.494 3.969,-0.749 6.074,-0.759c2.115,0.01 4.158,0.265 6.09,0.759c4.667,-3.058 6.934,-2.565 7.351,-2.433l0.451,0.145l0.174,0.44c1.225,3.098 0.813,5.559 0.451,6.766c1.618,1.963 2.438,4.291 2.438,6.929c0,9.591 -5.621,12.219 -10.588,13.087c0.563,1.065 0.868,2.402 0.868,3.878c0,1.683 -0.007,7.204 -0.015,8.402l-2,-0.014c0.008,-1.196 0.015,-6.708 0.015,-8.389c0,-2.442 -0.943,-3.522 -1.35,-3.874l-1.73,-1.497l2.274,-0.253c5.205,-0.578 10.525,-2.379 10.525,-11.341c0,-2.33 -0.777,-4.361 -2.31,-6.036l-0.43,-0.469l0.242,-0.587c0.166,-0.401 0.894,-2.442 -0.043,-5.291c-0.758,0.045 -2.568,0.402 -5.584,2.447l-0.384,0.259l-0.445,-0.123c-1.863,-0.518 -3.938,-0.796 -6.001,-0.806c-2.052,0.01 -4.124,0.288 -5.984,0.806l-0.445,0.123l-0.383,-0.259c-3.019,-2.044 -4.833,-2.404 -5.594,-2.449c-0.935,2.851 -0.206,4.892 -0.04,5.293l0.242,0.587l-0.429,0.469c-1.536,1.681 -2.314,3.712 -2.314,6.036c0,8.958 5.31,10.77 10.504,11.361l2.252,0.256l-1.708,1.49c-0.372,0.325 -1.03,1.112 -1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592 -5.839,2.162 -8.548,-2.485c-0.015,-0.025 -0.544,-0.945 -1.502,-1.557c0.646,0.639 1.433,1.673 2.068,3.287c0.066,0.19 1.357,3.622 7.28,2.339l1.206,-0.262l0.012,3.978c0.003,1.487 0.006,3.076 0.009,3.444z"
+                                            fill="url(#color-1_52539_gr1)">
+                                        </path>
+                                        <path d="M32,58c-14.337,0 -26,-11.663 -26,-26c0,-14.337 11.663,-26 26,-26c14.337,0 26,11.663 26,26c0,14.337 -11.663,26 -26,26zM32,8c-13.233,0 -24,10.767 -24,24c0,13.233 10.767,24 24,24c13.233,0 24,-10.767 24,-24c0,-13.233 -10.767,-24 -24,-24z"
+                                            fill="url(#color-2_52539_gr2)">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <a href="https://github.com/Simt23" target="_blank">
+                            <div class="items-center pt-3 text-lg text-[#F5F5DC]">
+                                GitHub
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex text-center ">
+                        <div class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 28 28"
+                                id="leetcode">
+                                <path fill="#FFA0C6" d="M19.816,23.985c-4.03,3.565-11.835,2.93-14.617-3.567S4.709,9.13,11.321,8.247S29.309,15.589,19.816,23.985z">
+                                </path>
+                                <path d="M22.303,18.047h-9.561c-0.936,0-1.697-0.803-1.697-1.79s0.762-1.79,1.697-1.79h9.561c0.936,0,1.697,0.803,1.697,1.79S23.238,18.047,22.303,18.047z M12.742,15.467c-0.385,0-0.697,0.354-0.697,0.79s0.312,0.79,0.697,0.79h9.561c0.385,0,0.697-0.354,0.697-0.79s-0.312-0.79-0.697-0.79H12.742z">
+                                </path>
+                                <path d="M13.618,26c-1.604,0-2.977-0.533-3.97-1.541l-4.098-4.181C4.551,19.262,4,17.819,4,16.215c0-1.578,0.551-3.008,1.552-4.025l9.519-9.681c0.66-0.67,1.829-0.652,2.506,0.036c0.694,0.706,0.71,1.839,0.034,2.524l-1.762,1.816c0.655,0.268,1.241,0.659,1.739,1.159l2.463,2.53c0.672,0.684,0.655,1.815-0.039,2.521c-0.346,0.352-0.802,0.545-1.284,0.545l0,0c-0.464,0-0.896-0.181-1.219-0.509l-2.536-2.492c-0.321-0.327-0.779-0.49-1.367-0.49c-0.606,0-1.069,0.157-1.375,0.469l-4.067,4.194c-0.342,0.349-0.521,0.831-0.521,1.4c0,0.577,0.189,1.101,0.519,1.436l4.083,4.182c0.315,0.321,0.774,0.484,1.362,0.484s1.045-0.163,1.36-0.484l2.549-2.505c0.314-0.321,0.746-0.502,1.209-0.503c0.001,0,0.002,0,0.002,0c0.483,0,0.939,0.194,1.286,0.546c0.693,0.705,0.71,1.837,0.036,2.522l-2.457,2.525C16.586,25.438,15.176,26,13.618,26z M16.29,3c-0.193,0-0.374,0.074-0.507,0.21l-9.519,9.681C5.449,13.72,5,14.9,5,16.215c0,1.341,0.449,2.535,1.265,3.363c0,0,0,0,0.001,0.001l4.097,4.18C11.162,24.57,12.288,25,13.618,25c1.288,0,2.444-0.455,3.258-1.282l2.457-2.525c0.295-0.301,0.279-0.804-0.034-1.122c-0.156-0.159-0.36-0.247-0.573-0.247c0,0,0,0-0.001,0c-0.192,0.001-0.37,0.075-0.502,0.209l-2.549,2.505c-0.497,0.507-1.214,0.778-2.068,0.778s-1.572-0.271-2.076-0.784L7.446,18.35c-0.519-0.527-0.805-1.286-0.805-2.136c0-0.824,0.286-1.57,0.806-2.099l4.067-4.194c0.503-0.512,1.206-0.771,2.091-0.771c0.854,0,1.571,0.271,2.074,0.783l2.536,2.492c0.139,0.142,0.318,0.216,0.512,0.216l0,0c0.212,0,0.415-0.087,0.571-0.246c0.313-0.319,0.33-0.822,0.037-1.121l-2.461-2.528c-0.56-0.562-1.263-0.957-2.028-1.137c-0.175-0.041-0.331-0.176-0.382-0.349s-0.021-0.363,0.104-0.492l2.325-2.398c0.298-0.302,0.282-0.805-0.031-1.124C16.707,3.088,16.504,3,16.29,3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <a href="https://leetcode.com/simt0823/" target="_blank">
+                            <div class="items-center pt-3 text-lg text-[#F5F5DC]">
+                                LeetCode
+                            </div>
+                        </a>
+                    </div>
+            </section>
+            </div>
         </div>
-       </div>
-       </div>
     </body>
-    </html>
+</html>
